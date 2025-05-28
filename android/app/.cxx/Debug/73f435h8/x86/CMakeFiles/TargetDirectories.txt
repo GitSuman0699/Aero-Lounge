@@ -1,0 +1,2 @@
+C:/Users/shran/my_projects/Utah Tech Labs/aero_lounge/android/app/.cxx/Debug/73f435h8/x86/CMakeFiles/edit_cache.dir
+C:/Users/shran/my_projects/Utah Tech Labs/aero_lounge/android/app/.cxx/Debug/73f435h8/x86/CMakeFiles/rebuild_cache.dir
