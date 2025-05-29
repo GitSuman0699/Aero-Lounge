@@ -36,19 +36,24 @@ class _ProfileSetup6ScreenState extends State<ProfileSetup6Screen> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         BackButtonWidget(),
-                        Container(
-                          padding:
-                              EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                          decoration: BoxDecoration(
-                            color: TColors.white,
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                          child: Text(
-                            "Skip",
-                            style: TextTheme.of(context).bodySmall?.copyWith(
-                                  color: TColors.textPrimary,
-                                  fontWeight: FontWeight.w600,
-                                ),
+                        InkWell(
+                          onTap: () {
+                            Get.toNamed(AppRoutes.accountReviewRoute);
+                          },
+                          child: Container(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 10, vertical: 6),
+                            decoration: BoxDecoration(
+                              color: TColors.white,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Text(
+                              "Skip",
+                              style: TextTheme.of(context).bodySmall?.copyWith(
+                                    color: TColors.textPrimary,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                            ),
                           ),
                         )
                       ],
