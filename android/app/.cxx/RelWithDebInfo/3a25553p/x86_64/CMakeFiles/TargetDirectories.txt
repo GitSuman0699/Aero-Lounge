@@ -1,0 +1,2 @@
+C:/Users/shran/my_projects/New projects/Aero-Lounge/android/app/.cxx/RelWithDebInfo/3a25553p/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/shran/my_projects/New projects/Aero-Lounge/android/app/.cxx/RelWithDebInfo/3a25553p/x86_64/CMakeFiles/rebuild_cache.dir
