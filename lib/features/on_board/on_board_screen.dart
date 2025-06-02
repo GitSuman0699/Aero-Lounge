@@ -25,7 +25,7 @@ class OnBoardScreen extends StatelessWidget {
             left: 20,
             right: 20,
             child: Image.asset(
-              Assets.assetsOnboardOnboardLogo,
+              Assets.assetsSplashSplashLogo,
               fit: BoxFit.contain,
               height: MediaQuery.of(context).size.height * 0.16,
             ),
